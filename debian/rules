@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+include /usr/share/dpkg/pkg-info.mk
+export TERM = xterm
+DEST = $(CURDIR)/debian/jewbuntu-icons
+STAGE = $(CURDIR)/debian/stage-icons
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	mkdir -p $(STAGE)
+	bash ./install.sh -d $(STAGE)
+	# Caches are generated on the target by dh_icons triggers, not shipped.
+	find $(STAGE) -name icon-theme.cache -delete
+	test -e $(STAGE)/Jewbuntu/apps/scalable/org.gnome.Nautilus.svg
+
+override_dh_auto_install:
+	install -d $(DEST)/usr/share/icons
+	cp -a $(STAGE)/. $(DEST)/usr/share/icons/
+
+override_dh_builddeb:
+	find $(DEST) -exec touch -h -d @$(SOURCE_DATE_EPOCH) {} +
+	dh_builddeb -- -Zxz

@@ -1,0 +1,6 @@
+jewbuntu-icons (0.1.0~git20261111+26.04) resolute; urgency=medium
+
+  * First Jewbuntu Icons package, from MacTahoe icon theme commit 839848b,
+    with Apple-copied app icons replaced by original squircles.
+
+ -- Jewbuntu Developers <maintainers@jewbuntu.invalid>  Wed, 11 Nov 2026 15:20:00 -0500

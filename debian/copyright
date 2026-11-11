@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: jewbuntu-icons
+Source: https://github.com/rhecht/jewbuntu-icons
+
+Files: *
+Copyright: vinceliuice and MacTahoe/WhiteSur icon theme contributors; 2026 Jewbuntu Developers
+License: GPL-3.0
+
+Files: src/apps/scalable/file-manager.svg src/apps/scalable/softwarecenter.svg src/apps/scalable/preferences-system.svg tools/jewbuntu/*
+Copyright: 2026 Jewbuntu Developers; glyphs from Adwaita icon theme, GNOME Project
+License: GPL-3.0
+Comment: The 23 generated originals listed in tools/jewbuntu/originals.json embed
+ Adwaita symbolic glyphs (CC BY-SA 3.0, GNOME Project) except two original glyphs.
+
+License: GPL-3.0
+ On Debian systems, see /usr/share/common-licenses/GPL-3.
