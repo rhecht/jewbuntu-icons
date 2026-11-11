@@ -1,0 +1,143 @@
+{
+  "about": "Icons in upstream MacTahoe that closely copy Apple's own app icons are replaced by original Mac-style squircles: a two-stop gradient plus a white glyph from GNOME's Adwaita symbolic set (CC BY-SA 3.0 / LGPL-3.0, GNOME Project). File names are unchanged so every alias link keeps working.",
+  "icons": {
+    "file-manager": {
+      "glyph": "folder-symbolic",
+      "top": "#5ac8fa",
+      "bottom": "#1f7ae0",
+      "was": "Finder face"
+    },
+    "softwarecenter": {
+      "glyph": "custom:bag",
+      "top": "#5e9cff",
+      "bottom": "#3a54d6",
+      "was": "App Store"
+    },
+    "preferences-system": {
+      "glyph": "emblem-system-symbolic",
+      "top": "#a7b0bd",
+      "bottom": "#5d6673",
+      "was": "System Settings gear"
+    },
+    "web-browser": {
+      "glyph": "custom:globe",
+      "top": "#4fd1ff",
+      "bottom": "#1a73e8",
+      "was": "Safari compass"
+    },
+    "safari": {
+      "glyph": "custom:globe",
+      "top": "#4fd1ff",
+      "bottom": "#1a73e8",
+      "was": "Safari"
+    },
+    "shotwell": {
+      "glyph": "image-x-generic-symbolic",
+      "top": "#ffb347",
+      "bottom": "#e8538a",
+      "was": "Photos flower"
+    },
+    "gnome-music": {
+      "glyph": "audio-x-generic-symbolic",
+      "top": "#ff6b81",
+      "bottom": "#d81b60",
+      "was": "Apple Music"
+    },
+    "gnome-maps": {
+      "glyph": "mark-location-symbolic",
+      "top": "#7ee08a",
+      "bottom": "#2e9e5b",
+      "was": "Apple Maps"
+    },
+    "tomboy": {
+      "glyph": "accessories-text-editor-symbolic",
+      "top": "#ffe27a",
+      "bottom": "#f5b700",
+      "was": "Notes"
+    },
+    "calendar": {
+      "glyph": "x-office-calendar-symbolic",
+      "top": "#ff7b6b",
+      "bottom": "#e0374f",
+      "was": "Calendar 'Tue 1'"
+    },
+    "addressbook": {
+      "glyph": "avatar-default-symbolic",
+      "top": "#c7b299",
+      "bottom": "#8d6e52",
+      "was": "Contacts"
+    },
+    "calc": {
+      "glyph": "accessories-calculator-symbolic",
+      "top": "#6b7280",
+      "bottom": "#374151",
+      "was": "Calculator"
+    },
+    "gnome-disks": {
+      "glyph": "drive-harddisk-symbolic",
+      "top": "#9aa4b2",
+      "bottom": "#4b5563",
+      "was": "Disk Utility with Apple logo"
+    },
+    "baobab": {
+      "glyph": "drive-harddisk-symbolic",
+      "top": "#f6a04d",
+      "bottom": "#d9480f",
+      "was": "Disk Utility style"
+    },
+    "utilities-system-monitor": {
+      "glyph": "power-profile-performance-symbolic",
+      "top": "#3fd16d",
+      "bottom": "#14532d",
+      "was": "Activity Monitor"
+    },
+    "accessories-screenshot": {
+      "glyph": "camera-photo-symbolic",
+      "top": "#c4cad3",
+      "bottom": "#6b7280",
+      "was": "Screenshot"
+    },
+    "fonts": {
+      "glyph": "preferences-desktop-font-symbolic",
+      "top": "#9ca3af",
+      "bottom": "#4b5563",
+      "was": "Font Book"
+    },
+    "accessories-camera": {
+      "glyph": "camera-web-symbolic",
+      "top": "#ef4444",
+      "bottom": "#991b1b",
+      "was": "Photo Booth"
+    },
+    "preferences-system-time": {
+      "glyph": "alarm-symbolic",
+      "top": "#3b3f46",
+      "bottom": "#111317",
+      "was": "Clock"
+    },
+    "internet-mail": {
+      "glyph": "mail-unread-symbolic",
+      "top": "#7cc4ff",
+      "bottom": "#2563eb",
+      "was": "Apple Mail"
+    },
+    "libreoffice-writer": {
+      "glyph": "x-office-document-symbolic",
+      "top": "#4a9df8",
+      "bottom": "#1d4ed8",
+      "was": "Pages"
+    },
+    "libreoffice-calc": {
+      "glyph": "x-office-spreadsheet-symbolic",
+      "top": "#4ade80",
+      "bottom": "#15803d",
+      "was": "Numbers"
+    },
+    "libreoffice-impress": {
+      "glyph": "x-office-presentation-symbolic",
+      "top": "#fb923c",
+      "bottom": "#c2410c",
+      "was": "Keynote"
+    }
+  }
+}

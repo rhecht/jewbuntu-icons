@@ -14,7 +14,7 @@ fi
 
 SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-THEME_NAME=MacTahoe
+THEME_NAME=Jewbuntu
 COLOR_VARIANTS=('' '-light' '-dark')
 THEME_VARIANTS=('' '-blue' '-purple' '-green' '-red' '-orange' '-yellow' '-grey' '-nord')
 
