@@ -1,3 +1,11 @@
+jewbuntu-icons (0.1.0~git20261120+26.04) resolute; urgency=medium
+
+  * Replace every start-here icon (places, status, mimes, symbolic: 11 files)
+    with a Star of David. They were the Apple logo, inherited from MacTahoe,
+    and menus on GNOME 2 and others showed it.
+
+ -- Jewbuntu Developers <maintainers@jewbuntu.invalid>  Fri, 20 Nov 2026 12:00:00 -0500
+
 jewbuntu-icons (0.1.0~git20261111+26.04) resolute; urgency=medium
 
   * First Jewbuntu Icons package, from MacTahoe icon theme commit 839848b,
